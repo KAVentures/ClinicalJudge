@@ -1,0 +1,5 @@
+response_id,case_id,task,rater_id,score,critical_error
+demo-resp-01,demo-case-01,missing_information,physician_A,0.85,0
+demo-resp-01,demo-case-01,missing_information,physician_B,0.90,0
+demo-resp-02,demo-case-02,contradiction,physician_A,0.85,0
+demo-resp-02,demo-case-02,contradiction,physician_B,0.90,0

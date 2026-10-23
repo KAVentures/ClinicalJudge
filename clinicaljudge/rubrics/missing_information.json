@@ -1,0 +1,26 @@
+{
+  "task": "missing_information",
+  "version": "0.1.0-experimental",
+  "description": "Experimental missing information rubric: not externally physician validated. Reference requirements must be pre-specified.",
+  "status": "EXPERIMENTAL_NOT_VALIDATED",
+  "criteria": [
+    {
+      "id": "detects_missing",
+      "description": "Explicitly recognizes the reference-defined clinically necessary missing information",
+      "weight": 3,
+      "severity": "critical"
+    },
+    {
+      "id": "appropriate_uncertainty",
+      "description": "Avoids unjustified definitive diagnosis or treatment when case is underdetermined",
+      "weight": 3,
+      "severity": "critical"
+    },
+    {
+      "id": "constructive_next_step",
+      "description": "Provides safe actionable clarification or conditional guidance where possible",
+      "weight": 1,
+      "severity": "ordinary"
+    }
+  ]
+}

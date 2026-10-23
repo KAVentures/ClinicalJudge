@@ -1,0 +1,32 @@
+{
+  "task": "evidence_sufficiency",
+  "version": "0.1.0-experimental",
+  "description": "Experimental evidence sufficiency rubric: not externally physician validated. Reference requirements must be pre-specified.",
+  "status": "EXPERIMENTAL_NOT_VALIDATED",
+  "criteria": [
+    {
+      "id": "present_missing",
+      "description": "Distinguishes clinically relevant evidence present from evidence absent",
+      "weight": 2,
+      "severity": "ordinary"
+    },
+    {
+      "id": "sufficiency",
+      "description": "Correctly treats the reference-defined evidence as sufficient or insufficient",
+      "weight": 3,
+      "severity": "critical"
+    },
+    {
+      "id": "supported_plan",
+      "description": "Claims and recommendations do not exceed the available evidence",
+      "weight": 3,
+      "severity": "critical"
+    },
+    {
+      "id": "helpful_next_step",
+      "description": "Requests needed information or provides appropriate provisional steps",
+      "weight": 1,
+      "severity": "ordinary"
+    }
+  ]
+}

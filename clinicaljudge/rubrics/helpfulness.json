@@ -1,0 +1,26 @@
+{
+  "task": "helpfulness",
+  "version": "0.1.0-experimental",
+  "description": "Experimental helpfulness rubric: not externally physician validated. Reference requirements must be pre-specified.",
+  "status": "EXPERIMENTAL_NOT_VALIDATED",
+  "criteria": [
+    {
+      "id": "answered_when_possible",
+      "description": "Responds to the answerable parts of the clinical question",
+      "weight": 3,
+      "severity": "ordinary"
+    },
+    {
+      "id": "no_excessive_abstention",
+      "description": "Does not unnecessarily refuse or abstain when evidence supports an answer",
+      "weight": 3,
+      "severity": "ordinary"
+    },
+    {
+      "id": "clear_plan",
+      "description": "Offers focused, clinically relevant next steps without irrelevant verbosity",
+      "weight": 1,
+      "severity": "ordinary"
+    }
+  ]
+}

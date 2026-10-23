@@ -1,0 +1,26 @@
+{
+  "task": "documentation",
+  "version": "0.1.0-experimental",
+  "description": "Experimental documentation rubric: not externally physician validated. Reference requirements must be pre-specified.",
+  "status": "EXPERIMENTAL_NOT_VALIDATED",
+  "criteria": [
+    {
+      "id": "fidelity",
+      "description": "Accurately represents case facts without fabricating history or examinations",
+      "weight": 3,
+      "severity": "critical"
+    },
+    {
+      "id": "coverage",
+      "description": "Documents the clinically important supplied features",
+      "weight": 2,
+      "severity": "ordinary"
+    },
+    {
+      "id": "organization",
+      "description": "Provides a coherent and usable clinical summary",
+      "weight": 1,
+      "severity": "ordinary"
+    }
+  ]
+}

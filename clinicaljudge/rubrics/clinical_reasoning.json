@@ -1,0 +1,26 @@
+{
+  "task": "clinical_reasoning",
+  "version": "0.1.0-experimental",
+  "description": "Experimental clinical reasoning rubric: not externally physician validated. Reference requirements must be pre-specified.",
+  "status": "EXPERIMENTAL_NOT_VALIDATED",
+  "criteria": [
+    {
+      "id": "evidence_grounded",
+      "description": "Uses findings genuinely present in the vignette",
+      "weight": 3,
+      "severity": "critical"
+    },
+    {
+      "id": "differential",
+      "description": "Appropriately weighs competing diagnoses",
+      "weight": 2,
+      "severity": "ordinary"
+    },
+    {
+      "id": "uncertainty",
+      "description": "Reflects clinical uncertainty, rather than false certainty",
+      "weight": 2,
+      "severity": "ordinary"
+    }
+  ]
+}

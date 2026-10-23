@@ -1,0 +1,1 @@
+All example cases and physician ratings are synthetic, fictional, unvalidated demonstration data. They are not evidence of human equivalence, a real clinical benchmark, or actual physician annotations. `demo` uses fabricated placeholder judgments, intentionally flagged as such.

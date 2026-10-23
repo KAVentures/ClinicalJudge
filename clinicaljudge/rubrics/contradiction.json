@@ -1,0 +1,26 @@
+{
+  "task": "contradiction",
+  "version": "0.1.0-experimental",
+  "description": "Experimental contradiction rubric: not externally physician validated. Reference requirements must be pre-specified.",
+  "status": "EXPERIMENTAL_NOT_VALIDATED",
+  "criteria": [
+    {
+      "id": "recognizes_conflict",
+      "description": "Notices the reference-defined conflicting findings",
+      "weight": 3,
+      "severity": "critical"
+    },
+    {
+      "id": "explains_consequence",
+      "description": "Explains how conflict changes confidence or management",
+      "weight": 2,
+      "severity": "ordinary"
+    },
+    {
+      "id": "avoids_overcommitment",
+      "description": "Does not disregard conflict to issue an unjustifiably certain plan",
+      "weight": 3,
+      "severity": "critical"
+    }
+  ]
+}

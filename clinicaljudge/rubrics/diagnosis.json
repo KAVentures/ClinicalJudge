@@ -1,0 +1,26 @@
+{
+  "task": "diagnosis",
+  "version": "0.1.0-experimental",
+  "description": "Experimental diagnosis rubric: not externally physician validated. Reference requirements must be pre-specified.",
+  "status": "EXPERIMENTAL_NOT_VALIDATED",
+  "criteria": [
+    {
+      "id": "correct_diagnosis",
+      "description": "Diagnosis matches a documented ground truth or clinically justifiable alternative",
+      "weight": 3,
+      "severity": "ordinary"
+    },
+    {
+      "id": "alternatives",
+      "description": "Identifies plausible important differentials without invented evidence",
+      "weight": 1,
+      "severity": "ordinary"
+    },
+    {
+      "id": "missing",
+      "description": "Does not invent or assume unavailable diagnostic information",
+      "weight": 2,
+      "severity": "critical"
+    }
+  ]
+}

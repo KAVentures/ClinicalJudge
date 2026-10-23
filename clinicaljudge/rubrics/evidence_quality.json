@@ -1,0 +1,26 @@
+{
+  "task": "evidence_quality",
+  "version": "0.1.0-experimental",
+  "description": "Experimental evidence quality rubric: not externally physician validated. Reference requirements must be pre-specified.",
+  "status": "EXPERIMENTAL_NOT_VALIDATED",
+  "criteria": [
+    {
+      "id": "supported",
+      "description": "Clinical assertions are supported by source text and allowed references",
+      "weight": 3,
+      "severity": "critical"
+    },
+    {
+      "id": "cites_correctly",
+      "description": "Does not fabricate citations or misrepresent evidence",
+      "weight": 2,
+      "severity": "ordinary"
+    },
+    {
+      "id": "limitations",
+      "description": "Acknowledges limitations and uncertainty in evidence",
+      "weight": 1,
+      "severity": "ordinary"
+    }
+  ]
+}
