@@ -141,3 +141,8 @@ Follow [CONTRIBUTING.md](CONTRIBUTING.md), [VALIDATION.md](VALIDATION.md), and [
 ## Publication / licensing
 
 Code: MIT. Upstream PrecepTron code/adapters: see their MIT license and model cards; Qwen3-32B base weights: separate Apache-2.0 terms; source datasets and physician annotations: their own terms. This is not a clinical decision-support product.
+
+
+## First blinded physician comparison (missing information)
+
+The original 50-response, three-physician cohort has an importer, frozen task-matched binary rubric, and leakage-aware validation instructions in [docs/PHYSICIAN50_PILOT.md](docs/PHYSICIAN50_PILOT.md). **There are not yet any new Qwen/PrecepTron scores for this task**; do not mistake the retrospective legacy vote comparison for an independent-model experiment.
