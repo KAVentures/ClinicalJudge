@@ -146,3 +146,9 @@ Code: MIT. Upstream PrecepTron code/adapters: see their MIT license and model ca
 ## First blinded physician comparison (missing information)
 
 The original 50-response, three-physician cohort has an importer, frozen task-matched binary rubric, and leakage-aware validation instructions in [docs/PHYSICIAN50_PILOT.md](docs/PHYSICIAN50_PILOT.md). **There are not yet any new Qwen/PrecepTron scores for this task**; do not mistake the retrospective legacy vote comparison for an independent-model experiment.
+
+## Free PrecepTron Kaggle experiment (experimental)
+
+The [Kaggle notebook](notebooks/PrecepTron_Kaggle_Physician50.ipynb) loads the **actual PrecepTron-32B-Management LoRA** onto a 4-bit quantized Qwen3-32B checkpoint and scores 50 blinded missing-information responses. It generates a report comparing predictions with three existing physician raters; the final physician labels are never included in the judge prompts. This is **cross-task transfer testing**, not native PrecepTron validation or proof of physician equivalence.
+
+Start with [the free-GPU setup guide](docs/KAGGLE_FREE_GPU.md). You must accept the gated [PrecepTron Management adapter](https://huggingface.co/tbuckley/PrecepTron-32B-Management), add a read-only `HF_TOKEN` secret in Kaggle, and use a T4 × 2 GPU notebook with internet access. Kaggle availability and disk limits are not guaranteed. **No paid Hugging Face compute is required by this workflow.** Actual GPU inference has not been executed or clinically validated by this repository maintainers yet.
